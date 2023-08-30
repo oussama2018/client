@@ -10,7 +10,7 @@ import {store,persistor} from './redux/store';
 import { PersistGate } from 'redux-persist/integration/react';
 
 
-axios.defaults.baseURL="http://localhost:5000/api"
+axios.defaults.baseURL="https://book-back-wuxq.onrender.com/api"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
