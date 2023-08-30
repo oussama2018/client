@@ -24,6 +24,7 @@ const Navbar = () => {
             <ul className='register_login'>
             <Link to="/Register">Register</Link>
             <Link to="/Login">Login</Link>
+            <Link to="/LoginAdmin">Login Admin</Link>
             </ul>
           </div>
         )}
