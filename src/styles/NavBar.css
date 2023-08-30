@@ -1,0 +1,63 @@
+/* Reset default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the navbar */
+  .navbar {
+    background-color: white; /* Set background color to white */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    position: fixed; /* Fix the navbar at the top */
+    width: 100%; /* Take up the full width of the viewport */
+    top: 0; /* Position at the top of the viewport */
+  }
+  
+  /* Style the list items horizontally */
+  .navbar ul {
+    list-style: none; /* Remove default list bullet points */
+    display: flex; /* Display list items horizontally */
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Vertically center items */
+    padding: 10px 20px; /* Add some padding around the list */
+  }
+  
+  /* Style the list items */
+  .navbar ul li {
+    margin-right: 20px; /* Add spacing between items */
+  }
+  
+  /* Style the links */
+  .navbar ul li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #333; /* Set link color */
+    font-weight: bold; /* Make links bold */
+  }
+  
+  /* Style the logout button */
+  .navbar button {
+    background-color: transparent; /* Transparent background */
+    border: none; /* Remove button border */
+    color: #333; /* Set button color */
+    font-weight: bold; /* Make button text bold */
+    cursor: pointer; /* Change cursor on hover */
+    padding: 0; /* Remove button padding */
+    margin: 0; /* Remove button margin */
+    font-size: inherit; /* Inherit font size from parent */
+  }
+  .register_login {
+    /* Add your styling here */
+    /* For example, you can center the links and give them a different color */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .register_login a {
+    color: #555; /* Set a different color for the links */
+    margin: 0 10px; /* Add spacing between links */
+    font-weight: normal; /* Remove bold font weight */
+  }
+  
+  .register_login a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
